@@ -1,0 +1,21 @@
+.headerContainer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+
+    .link {
+        text-decoration: none;
+        padding: 16px;
+        background-color: thistle;
+        color: white;
+
+        &:hover {
+            background-color: tomato;
+        }
+    }
+}

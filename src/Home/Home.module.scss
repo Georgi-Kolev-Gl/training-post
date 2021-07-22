@@ -1,0 +1,18 @@
+.homeWrapper {
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    color: turquoise;
+    text-align: center;
+  }
+
+  .postsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .postsWrapper {
+      display: flex;
+  }
+}

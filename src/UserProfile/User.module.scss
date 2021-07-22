@@ -1,0 +1,22 @@
+.userInfoContainer {
+  display: flex;
+  text-align: center;
+  border-bottom: 5px dashed deeppink;
+  .imageContainer {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    .avatar {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .infoWrapper {
+    border-left: 2px solid springgreen;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}

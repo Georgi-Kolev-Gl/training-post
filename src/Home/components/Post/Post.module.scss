@@ -1,0 +1,26 @@
+.card {
+  width: 300px;
+  margin: 16px 12px;
+
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    .button {
+      margin-top: auto;
+    }
+  }
+}
+
+
+.list {
+  width: 100%;
+  margin: 16px 12px;
+
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    .button {
+      margin-top: auto;
+    }
+  }
+}
